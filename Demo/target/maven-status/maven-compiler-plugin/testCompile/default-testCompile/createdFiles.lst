@@ -1,0 +1,11 @@
+common\DemoWebShop_Test.class
+common\Omayo_Test.class
+beauty\Loreal_Test.class
+beauty\Lakme_Test.class
+beauty\Purplle_Test.class
+beauty\Maybelline_Test.class
+common\MakeMyTrip_Test.class
+food\Dominos_Test.class
+food\Swiggy_Test.class
+food\Ubereats_Test.class
+smoke\TestScript_01_Test.class

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T11:25:48 UTC" name="Suite" finished-at="2024-02-22T11:26:09 UTC" duration-ms="20418">
+    <groups>
+    </groups>
+    <test started-at="2024-02-22T11:25:48 UTC" name="Test" finished-at="2024-02-22T11:26:09 UTC" duration-ms="20418">
+      <class name="common.DemoWebShop_Test">
+        <test-method signature="launch()[pri:0, instance:common.DemoWebShop_Test@3c947bc5]" started-at="2024-02-22T11:25:49 UTC" name="launch" finished-at="2024-02-22T11:25:55 UTC" duration-ms="6582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- common.DemoWebShop_Test -->
+      <class name="common.MakeMyTrip_Test">
+        <test-method signature="launch()[pri:0, instance:common.MakeMyTrip_Test@609db43b]" started-at="2024-02-22T11:25:55 UTC" name="launch" finished-at="2024-02-22T11:26:02 UTC" duration-ms="6919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- common.MakeMyTrip_Test -->
+      <class name="common.Omayo_Test">
+        <test-method signature="launch()[pri:0, instance:common.Omayo_Test@55f616cf]" started-at="2024-02-22T11:26:02 UTC" name="launch" finished-at="2024-02-22T11:26:09 UTC" duration-ms="6849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- common.Omayo_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
