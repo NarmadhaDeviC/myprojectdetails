@@ -1,29 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T11:25:48 UTC" name="Suite" finished-at="2024-02-22T11:26:09 UTC" duration-ms="20418">
+  <suite started-at="2024-03-06T11:04:17 UTC" name="Surefire suite" finished-at="2024-03-06T11:05:41 UTC" duration-ms="83769">
     <groups>
     </groups>
-    <test started-at="2024-02-22T11:25:48 UTC" name="Test" finished-at="2024-02-22T11:26:09 UTC" duration-ms="20418">
+    <test started-at="2024-03-06T11:04:17 UTC" name="Surefire test" finished-at="2024-03-06T11:05:41 UTC" duration-ms="83769">
+      <class name="food.Ubereats_Test">
+        <test-method signature="launch()[pri:0, instance:food.Ubereats_Test@74e52ef6]" started-at="2024-03-06T11:05:25 UTC" name="launch" finished-at="2024-03-06T11:05:34 UTC" duration-ms="8626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- food.Ubereats_Test -->
+      <class name="beauty.Maybelline_Test">
+        <test-method signature="launch()[pri:0, instance:beauty.Maybelline_Test@179ece50]" started-at="2024-03-06T11:04:38 UTC" name="launch" finished-at="2024-03-06T11:04:45 UTC" duration-ms="7619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- beauty.Maybelline_Test -->
       <class name="common.DemoWebShop_Test">
-        <test-method signature="launch()[pri:0, instance:common.DemoWebShop_Test@3c947bc5]" started-at="2024-02-22T11:25:49 UTC" name="launch" finished-at="2024-02-22T11:25:55 UTC" duration-ms="6582" status="PASS">
+        <test-method signature="launch()[pri:0, instance:common.DemoWebShop_Test@3cd3e762]" started-at="2024-03-06T11:04:53 UTC" name="launch" finished-at="2024-03-06T11:04:59 UTC" duration-ms="6241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
       </class> <!-- common.DemoWebShop_Test -->
       <class name="common.MakeMyTrip_Test">
-        <test-method signature="launch()[pri:0, instance:common.MakeMyTrip_Test@609db43b]" started-at="2024-02-22T11:25:55 UTC" name="launch" finished-at="2024-02-22T11:26:02 UTC" duration-ms="6919" status="PASS">
+        <test-method signature="launch()[pri:0, instance:common.MakeMyTrip_Test@1fa121e2]" started-at="2024-03-06T11:04:59 UTC" name="launch" finished-at="2024-03-06T11:05:06 UTC" duration-ms="6819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
       </class> <!-- common.MakeMyTrip_Test -->
+      <class name="beauty.Loreal_Test">
+        <test-method signature="launch()[pri:0, instance:beauty.Loreal_Test@9d5509a]" started-at="2024-03-06T11:04:30 UTC" name="launch" finished-at="2024-03-06T11:04:38 UTC" duration-ms="7518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- beauty.Loreal_Test -->
+      <class name="food.Dominos_Test">
+        <test-method signature="launch()[pri:0, instance:food.Dominos_Test@4116aac9]" started-at="2024-03-06T11:05:12 UTC" name="launch" finished-at="2024-03-06T11:05:19 UTC" duration-ms="6860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- food.Dominos_Test -->
+      <class name="food.Swiggy_Test">
+        <test-method signature="launch()[pri:0, instance:food.Swiggy_Test@62ddbd7e]" started-at="2024-03-06T11:05:19 UTC" name="launch" finished-at="2024-03-06T11:05:25 UTC" duration-ms="6421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- food.Swiggy_Test -->
+      <class name="beauty.Purplle_Test">
+        <test-method signature="launch()[pri:0, instance:beauty.Purplle_Test@3b0090a4]" started-at="2024-03-06T11:04:45 UTC" name="launch" finished-at="2024-03-06T11:04:53 UTC" duration-ms="7432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- beauty.Purplle_Test -->
+      <class name="smoke.TestScript_01_Test">
+        <test-method signature="launch()[pri:0, instance:smoke.TestScript_01_Test@6ed3ccb2]" started-at="2024-03-06T11:05:34 UTC" name="launch" finished-at="2024-03-06T11:05:41 UTC" duration-ms="6772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- smoke.TestScript_01_Test -->
+      <class name="beauty.Lakme_Test">
+        <test-method signature="launch()[pri:0, instance:beauty.Lakme_Test@6f03482]" started-at="2024-03-06T11:04:17 UTC" name="launch" finished-at="2024-03-06T11:04:30 UTC" duration-ms="12921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- beauty.Lakme_Test -->
       <class name="common.Omayo_Test">
-        <test-method signature="launch()[pri:0, instance:common.Omayo_Test@55f616cf]" started-at="2024-02-22T11:26:02 UTC" name="launch" finished-at="2024-02-22T11:26:09 UTC" duration-ms="6849" status="PASS">
+        <test-method signature="launch()[pri:0, instance:common.Omayo_Test@7eac9008]" started-at="2024-03-06T11:05:06 UTC" name="launch" finished-at="2024-03-06T11:05:12 UTC" duration-ms="6378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
       </class> <!-- common.Omayo_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
