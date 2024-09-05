@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="5" name="Test"   parallel="true"><!-- test name should be diferent -->
+    <classes>
+      <class name="batchExecution.LaunchDemo"/>
+      <class name="batchExecution.LaunchLakme"/>
+      <class name="batchExecution.LaunchSwiggy"/>
+    </classes>
+  </test>
+  
+      <test thread-count="5" name="Test1"   parallel="true"><!-- test name should be diferent -->
+     <classes>		
+      <class name="batchExecution.LaunchPurplle"/>
+      <class name="batchExecution.LaunchLoreal"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- if give parallel only in suite then scripts of test execute parallely  and then  test1 execute parallely-->
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="beauty"></include><!-- it will run only beauty group text scripts,mentioned groups="beauty" in eac test scripts-->
+			  <exclude name="food"></exclude><!-- it will exclude food group of test scripts-->
+		  </run>
+	  </groups>
+    <classes>
+      <class name="batchExecution.LaunchDemo"/>
+      <class name="batchExecution.LaunchLakme"/>
+      <class name="batchExecution.LaunchSwiggy"/>
+      <class name="batchExecution.LaunchPurplle"/>
+      <class name="batchExecution.LaunchUberEats"/>
+      <class name="batchExecution.LaunchLoreal"/>
+      <class name="batchExecution.LaunchMaybelline"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- it will run test scripts which are in include group only and no other test scripts will be executed-->
